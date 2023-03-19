@@ -105,7 +105,7 @@ const App = () => {
                 </button>
                 <div className="mt-8 bg-gray-600 p-6 rounded-lg">
                   <h2 className="text-lg font-semibold mb-4 text-gray-200">
-                    Extracted Text:
+                    Generated Cover Letter:
                   </h2>
                   <pre className="text-sm text-gray-200 whitespace-pre-wrap">
                     {coverLetter}
