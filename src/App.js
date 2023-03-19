@@ -60,7 +60,7 @@ const App = () => {
             htmlFor="pdf_file"
             className="block text-gray-200 text-sm font-bold mb-2"
           >
-            Upload a PDF file:
+            Upload your CV in PDF format:
           </label>
           <input
             type="file"
