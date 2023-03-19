@@ -47,13 +47,13 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-800 flex flex-col items-center justify-center relative">
+    <div className="min-h-screen bg-gray-800 flex px-8 flex-col items-center justify-center relative">
       <header className="w-full bg-gray-700 p-4 text-center text-white text-2xl font-semibold fixed top-0 z-10">
         Custom Cover Letter Generator
       </header>
       <form
         onSubmit={handleSubmit}
-        className="bg-gray-700 p-8 rounded-lg shadow-md mt-28 mb-40 min-w-[400px] max-w-[1200px]"
+        className="bg-gray-700 p-8 rounded-lg shadow-md mt-28 mb-40 min-w-[100px] max-w-[1200px]"
       >
         <div className="mb-6">
           <label
