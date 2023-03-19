@@ -25,7 +25,10 @@ const App = () => {
     const formData = new FormData();
     formData.append("pdf_file", file);
     try {
-      const response = await axios.post("http://localhost:8000/api/extract/", formData);
+      const response = await axios.post(
+        "https://back-cover.herokuapp.com/api/extract/",
+        formData
+      );
       const { text_from_pdf, cover_letter } = response.data;
       setTextFromPDF(text_from_pdf);
       setCoverLetter(cover_letter);
